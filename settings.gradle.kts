@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DotsTabLayoutExample"
 include(":app")
-include(":dotstablayout")
+include(":dots-tab-layout")
