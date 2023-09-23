@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DotsTabLayout">
+        <attr name="dotSize" format="dimension"/>
+        <attr name="evenly" format="boolean"/>
+        <attr name="baseColor" format="color"/>
+        <attr name="dotStrokeWidth" format="dimension"/>
+        <attr name="dotsNumber" format="integer" />
+        <attr name="dotsHorizontalPadding" format="dimension"/>
+        <attr name="dotsClickable" format="boolean"/>
+        <attr name="indicatorType" format="enum">
+            <enum name="discreteDotIndicator" value="0"/>
+            <enum name="movingDotIndicator" value="1"/>
+            <enum name="fillingDotIndicator" value="2"/>
+            <enum name="crawlingDotIndicator" value="3"/>
+            <enum name="movingLineIndicator" value="4"/>
+            <enum name="growingCircleIndicator" value="5"/>
+            <enum name="expandingLineIndicator" value="6"/>
+            <enum name="jumpingDotIndicator" value="7"/>
+            <enum name="compactJumpingDotIndicator" value="8"/>
+            <enum name="fadingDotIndicator" value="9"/>
+            <enum name="swappingDotIndicator" value="10"/>
+        </attr>
+    </declare-styleable>
+</resources>
