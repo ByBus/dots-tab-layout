@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:indicatorType="compactJumpingDotIndicator"
+        app:indicatorType="growingDotIndicator"
         app:dotsClickable="true"
         tools:dotsNumber="6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

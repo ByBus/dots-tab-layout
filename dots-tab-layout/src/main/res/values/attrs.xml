@@ -20,6 +20,7 @@
             <enum name="compactJumpingDotIndicator" value="8"/>
             <enum name="fadingDotIndicator" value="9"/>
             <enum name="swappingDotIndicator" value="10"/>
+            <enum name="growingDotIndicator" value="11"/>
         </attr>
     </declare-styleable>
 </resources>
