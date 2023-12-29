@@ -11,13 +11,13 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@id/tab_layout_dots"
+        app:layout_constraintBottom_toTopOf="@id/dotstab_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <host.capitalquiz.dotstablayout.DotsTabLayout
-        android:id="@+id/tab_layout_dots"
+        android:id="@+id/dotstab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/blue"
@@ -29,8 +29,17 @@
         app:dotsHorizontalPadding="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:indicatorType="growingDotIndicator"
+        app:layout_constraintBottom_toTopOf="@id/nextPageButton"
+        app:indicatorType="contractingDotIndicator"
         app:dotsClickable="true"
         tools:dotsNumber="6" />
+
+    <Button
+        android:id="@+id/nextPageButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

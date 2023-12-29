@@ -9,6 +9,7 @@ import host.capitalquiz.dotstablayout.indicatordrawer.JumpingDotIndicator
 import host.capitalquiz.dotstablayout.indicatordrawer.MovingDotIndicator
 import host.capitalquiz.dotstablayout.indicatordrawer.MovingLineIndicator
 import host.capitalquiz.dotstablayout.indicatordrawer.CompactJumpingDotIndicator
+import host.capitalquiz.dotstablayout.indicatordrawer.ContractingDotIndicator
 import host.capitalquiz.dotstablayout.indicatordrawer.FadingDotIndicator
 import host.capitalquiz.dotstablayout.indicatordrawer.GrowingDotIndicator
 import host.capitalquiz.dotstablayout.indicatordrawer.SwappingDotIndicator
@@ -50,6 +51,9 @@ internal enum class IndicatorDrawerType {
     },
     GROWING_DOT_INDICATOR {
         override fun create(dotHolder: DotHolder) = GrowingDotIndicator(dotHolder)
+    },
+    CONTRACTING_DOT_INDICATOR {
+        override fun create(dotHolder: DotHolder) = ContractingDotIndicator(dotHolder)
     }
     ;
 

@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         minSdk = 24
-        version = "0.5.0"
+        version = "0.9.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -50,6 +50,8 @@ afterEvaluate {
                 version = "${project.version}"
 
                 from(components["release"])
+
+                // "host.capitalquiz:dotstablayout:0.8.0"
             }
         }
     }

@@ -21,7 +21,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.github.ByBus:dots-tab-layout:0.8.0'
+    implementation 'com.github.ByBus:dots-tab-layout:0.9.0'
 }
 ```
 
@@ -30,7 +30,7 @@ dependencies {
 #### 1. Add DotsTabLayout view to your layout
 ```
 <host.capitalquiz.dotstablayout.DotsTabLayout
-    android:id="@+id/tab_layout_dots"
+    android:id="@+id/dotstab_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/blue"
@@ -83,6 +83,11 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 #### fillingDotIndicator
 ![](images/fillingDotIndicator.gif?raw=true)
+
+---
+
+#### contractingDotIndicator
+![](images/contractingDotIndicator.gif?raw=true)
 
 ---
 
